@@ -1,0 +1,7 @@
+preco_original = int(input("Valor do produto: "))
+porcentagem_aplicada = int(input("Valor do desconto: "))
+preco = (porcentagem_aplicada/100)
+preco2 = (preco*preco_original)
+print(f"O valor do desconto entre {preco_original} e {porcentagem_aplicada} é: {preco2}: ")
+preco3 = (preco_original-preco2)
+print(f"O valor final é {preco3}")
