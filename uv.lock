@@ -398,6 +398,7 @@ source = { editable = "." }
 dependencies = [
     { name = "matplotlib" },
     { name = "pandas" },
+    { name = "repeat" },
     { name = "seaborn" },
 ]
 
@@ -405,6 +406,7 @@ dependencies = [
 requires-dist = [
     { name = "matplotlib", specifier = ">=3.11.1" },
     { name = "pandas", specifier = ">=3.0.5" },
+    { name = "repeat", specifier = ">=0.0.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
 ]
 
@@ -427,6 +429,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 342432, upload-time = "2024-03-01T18:36:20.211Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl", hash = "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427", size = 229892, upload-time = "2024-03-01T18:36:18.57Z" },
+]
+
+[[package]]
+name = "repeat"
+version = "0.0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/60/13/19e736dd8c4fa7171a24832a3566cac6372135b15d6e31de9430827d6a3e/repeat-0.0.1.tar.gz", hash = "sha256:a9a6719291b3e646a3494d5d4fb8310d922e05e8cd92fb7967813a416ce2bd79", size = 609, upload-time = "2026-03-21T19:48:45.212Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/01/04/d2e56aaf781ae10ee1ed983b83b15b1f88b3b6472b8a510232c8b72f2d82/repeat-0.0.1-py3-none-any.whl", hash = "sha256:7b1cd352883b9478f90f187d01dbac92eeec8a82e0d027190d379588afc947c7", size = 1507, upload-time = "2026-03-21T19:48:43.945Z" },
 ]
 
 [[package]]
